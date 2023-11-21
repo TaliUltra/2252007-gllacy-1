@@ -810,7 +810,8 @@ img {
 }
 
 .promotion-button {
-  width: 176px;
+  width: 112px;
+  text-decoration: none;
 }
 
 .promotion-image {
@@ -986,7 +987,6 @@ a.product-card-image-link {
 .about-title {
   width: 995px;
   margin: 0 auto;
-  /* margin-top: 0; */
   margin-bottom: 56px;
 }
 
@@ -1029,6 +1029,7 @@ a.product-card-image-link {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
   margin-bottom: 80px;
 }
 
@@ -1109,7 +1110,7 @@ a.product-card-image-link {
 
 .subscription-field {
   width: 312px;
-  height: 48px;
+  height: 46px;
   padding-left: 16px;
   border: 1px solid #b9b9b9;
   border-radius: 4px;
@@ -1194,6 +1195,7 @@ a.product-card-image-link {
   display: flex;
   justify-content: space-between;
   border-radius: 16px;
+  align-items: flex-start;
 }
 
 .delivery-description {
@@ -1457,7 +1459,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   background: #fcfcfc;
   box-shadow: 0 8px 16px 0 rgba(45, 52, 64, 0.12);
   display: inline-block;
-  padding: 40px 40px;
+  padding: 40px 40px 52px 40px;
 }
 
 .contacts-title {
@@ -1518,12 +1520,12 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   font-size: 14px;
   font-weight: 400;
   line-height: 20px;
-  margin-bottom: 32px;
+  margin-bottom: 42px;
   margin-top: 0;
 }
 
 .contacts-button {
-  width: 250px;
+  width: 186px;
   margin-bottom: 2px;
   color: #fcfcfc;
   text-align: center;
@@ -2215,7 +2217,6 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 /* Form */
 /* Sorting */
 .sorting-container {
-  /* width: 823px; */
   max-width: 1170px;
   margin-bottom: 44px;
   display: flex;
@@ -2224,9 +2225,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .catalog-form-row {
   margin: 0;
-  /* margin-left: 0; */
   display: flex;
-  /* justify-content: space-between; */
   align-items: flex-start;
 }
 
@@ -2356,7 +2355,6 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 /* Radio Fat */
 .radio {
-  /* width: 383px; */
   max-width: 725px;
 }
 
@@ -2455,7 +2453,6 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 /* Checkbox Fillers */
 .checkbox {
-  /* width: 604px; */
   max-width: 981px;
   margin-right: 16px;
 }
@@ -2557,12 +2554,6 @@ svg.checked-svg:hover path {
 .control-input[type="checkbox"]:checked:disabled ~ .checked-svg {
   display: block;
   fill: rgba(45, 52, 64, 0.5);
-}
-
-.catalog-form-row-fillers {
-  /* width: 809px; */
-  /* display: flex; */
-  /* justify-content: space-between; */
 }
 
 .sorting-button {
